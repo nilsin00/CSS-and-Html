@@ -1,0 +1,111 @@
+/* Estilização geral da página */
+body {
+    background-color: #20232a;
+    color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+/* Cabeçalho */
+header {
+    background-color: #8b1e2d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+/* Título principal */
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* Subtítulos */
+h2, h3 {
+    color: #ffb347;
+}
+/* Tamanho dos subtítulos */
+h2 {
+    font-size: 26px;
+    border-bottom: 2px solid #8b1e2d;
+    padding-bottom: 8px;
+}
+h3 {
+    font-size: 20px;
+}
+/* Menu de navegação */
+nav {
+    background-color: #15171c;
+    text-align: center;
+    padding: 15px;
+}
+/* Links do menu */
+nav a {
+    color: #ffb347;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+/* Efeito ao passar o mouse nos links */
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+/* Conteúdo principal */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+/* Caixas de conteúdo: exemplo de seletor de classe */
+.caixa {
+    background-color: #2c3038;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #8b1e2d;
+    border-radius: 10px;
+}
+/* Parágrafos */
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+/* Imagem */
+img {
+    border: 3px solid #ffb347;
+    border-radius: 5px;
+    margin: 10px;
+}
+/* Listas */
+ul, ol {
+    line-height: 1.8;
+    padding-left: 30px;
+}
+/* Itens das listas */
+li {
+    margin-bottom: 5px;
+}
+/* Botão feito com um link */
+.botao {
+    display: inline-block;
+    background-color: #8b1e2d;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 2px solid #ffb347;
+    border-radius: 5px;
+}
+/* Efeito ao passar o mouse no botão */
+.botao:hover {
+    background-color: #b52a3d;
+    color: white;
+}
+/* Rodapé */
+footer {
+    background-color: #15171c;
+    color: #cccccc;
+    text-align: center;
+    padding: 15px;
+    border-top: 3px solid #8b1e2d;
+}
